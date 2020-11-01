@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 
+// TODO: Auto-generated Javadoc
 /*
  * Adapter Design Pattern
  * TASKS:
@@ -21,10 +23,20 @@
  *    
  */
 
+/**
+ * The Class MyMain.
+ */
 public class MyMain {
+	
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
-		int[] array = {25, 37, 12, 8, -5};
-		
+		int[] array = {25, 37, 12, 8, 60, -5};
+		//int[] orderedArray = bubbleSort(array);
 		DataStructsFrame frame = new DataStructsFrame ("Adapter Design Pattern Demonstration", array);		
 	}
+	
 }
